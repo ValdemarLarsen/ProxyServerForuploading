@@ -12,7 +12,7 @@
         id: document.getElementById('anmeldelsenumer').value
       }));
 
-      // Send files to fivemanage with the API key as a query parameter
+     
       fetch('http://localhost:3000/proxy', {
         method: 'POST',
         body: formData
